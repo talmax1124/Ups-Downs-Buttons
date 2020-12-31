@@ -1,0 +1,172 @@
+// ------------------------------------------- //
+
+// Sizes
+$large: 20px;
+$medium: 15px;
+$small: 10px;
+$x-small: 5px;
+
+// Styles
+$sm-rounded: 5px;
+$m-rounded: 10px;
+$l-rounded: 15px;
+$xl-rounded: 20px;
+
+// Font Sizes
+$font-arial: arial;
+$font-sansserif: sans-serif;
+
+// Background
+$bg-dark: black;
+
+// Morphism
+
+// Buttons
+// ------------------------------ //
+// Padding
+.large {
+  padding: $large;
+}
+
+.small {
+  padding: $small;
+}
+
+.medium {
+  padding: $medium;
+}
+
+.x-small {
+  padding: $x-small;
+}
+
+// ----------------------------------- //
+
+// Roundness
+.small-rounded {
+  border-radius: $sm-rounded;
+}
+
+.medium-rounded {
+  border-radius: $m-rounded;
+}
+
+.large-rounded {
+  border-radius: $l-rounded;
+}
+
+.xlarge-rounded {
+  border-radius: $xl-rounded;
+}
+
+// ---------------------------- //
+
+// Fonts
+
+.font-arial {
+  font-family: $font-arial;
+}
+
+.font-sans-serif {
+  font-family: $font-sansserif;
+}
+
+// ------------------------------ //
+
+// Background Colors
+
+.bg-dark {
+  background-color: $bg-dark;
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
+.bg-gray {
+  background-color: gray;
+  color: black;
+}
+
+// Glassmorphism
+.bg-glassmorphism-p-25 {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.bg-glassmorphism-p-05 {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.bg-glassmorphism-p-1 {
+  background: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+// Hover
+
+.hover-slow{
+  transition: 1s ease;
+}
+
+.hover-medium{
+  transition: .5 ease;
+}
+
+.hover-fast{
+  transition: .25s ease;
+}
+
+.to-black-hover:hover{
+  background-color: black;
+}
+
+.to-white-hover:hover{
+  background-color: white
+}
+
+.twolines {
+    letter-spacing: 0;
+}
+
+.twolines:hover,
+.twolines:active {
+  letter-spacing: 5px;
+}
+
+.twolines:after,
+.twolines:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.twolines:hover:after,
+.twolines:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.twolines:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+
+
+// Customize Yours Below

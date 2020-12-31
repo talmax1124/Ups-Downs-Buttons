@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Colors
+$primary: #f7f1f0;
+$secondary: #019875;
+$white: #070707;
+
+// Transitions Timing
+$hover: 0.25s ease;
+
+nav {
+  height: 50px;
+  box-shadow: 0 5px 30px rgba(black, 0.25);
+  background: $primary;
+  position: relative;
+  color: black;
+  padding: 0 5%;
+  @media only screen and (max-width: 640px) {
+    padding: 0 5%;
+  }
+  .nav-logo {
+    float: left;
+    line-height: 50px;
+    font-size: 32px;
+  }
+  .nav-container {
+    text-align: right;
+    @media only screen and (max-width: 640px) {
+      max-height: 0px;
+      overflow: hidden;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 50px;
+      font-weight: 700;
+      background: $primary;
+      transition: max-height 100ms ease-in-out;
+      box-shadow: 0 10px 15px rgba(black, 0.5);
+    }
+    a {
+      color: $white;
+      background: $primary;
+      text-decoration: none;
+      line-height: 50px;
+      transition: background 75ms ease-in-out;
+      display: inline-block;
+      width: auto;
+      padding: 0 15px;
+      &:hover {
+        background: darken($primary, 10%);
+      }
+      @media only screen and (max-width: 640px) {
+        width: 100%;
+        display: block;
+        padding: 0;
+        text-align: center;
+      }
+    }
+    &.active {
+      padding-bottom: 25px;
+      max-height: calc(50px * 4); //number of menu items
+    }
+  }
+  .nav-toggle {
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+    @media only screen and (max-width: 640px) {
+      display: block;
+    }
+  }
+}
+
+// Hero
+.cls-1 {
+  font-size: 156.27px;
+  font-family: RobotoMonoForPowerline-Medium, Roboto Mono Medium for Powerline;
+  font-weight: 500;
+}
+
+.cls-2 {
+  font-size: 243.45px;
+}
+
+.cls-2,
+.cls-3 {
+  font-family: Arial-Black, Arial Black;
+  font-weight: 800;
+}
+
+.cls-3 {
+  font-size: 236.89px;
+}
+
+.cls-4 {
+  fill: url(#Foliage_17);
+}
+
+.cls-5 {
+  font-size: 74.79px;
+  font-family: Amarillo;
+}
+
+.code {
+  counter-reset: line var(--startline);
+}
+
+.code li {
+  counter-increment: line;
+}
+
+.code li:before {
+  content: counter(line);
+  padding: 3px 5px 3px 0;
+  margin-right: 10px;
+  border-right: 1px solid grey;
+  color: coral;
+}
+
+.hero-body {
+  .logo {
+    width: 20%;
+  }
+}
+
+.btn-title {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+// Buttons
+
+.btn-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+// ------------------------------------------- //
+
+// Sizes
+$large: 20px;
+$medium: 15px;
+$small: 10px;
+$x-small: 5px;
+
+// Styles
+$sm-rounded: 5px;
+$m-rounded: 10px;
+$l-rounded: 15px;
+$xl-rounded: 20px;
+
+// Font Sizes
+$font-arial: arial;
+$font-sansserif: sans-serif;
+
+// Background
+$bg-dark: black;
+
+// Morphism
+
+// Buttons
+// ------------------------------ //
+// Padding
+.large {
+  padding: $large;
+}
+
+.small {
+  padding: $small;
+}
+
+.medium {
+  padding: $medium;
+}
+
+.x-small {
+  padding: $x-small;
+}
+
+// ----------------------------------- //
+
+// Roundness
+.small-rounded {
+  border-radius: $sm-rounded;
+}
+
+.medium-rounded {
+  border-radius: $m-rounded;
+}
+
+.large-rounded {
+  border-radius: $l-rounded;
+}
+
+.xlarge-rounded {
+  border-radius: $xl-rounded;
+}
+
+// ---------------------------- //
+
+// Fonts
+
+.font-arial {
+  font-family: $font-arial;
+}
+
+.font-sans-serif {
+  font-family: $font-sansserif;
+}
+
+// ------------------------------ //
+
+// Background Colors
+
+.bg-dark {
+  background-color: $bg-dark;
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
+.bg-gray {
+  background-color: gray;
+  color: black;
+}
+
+// Glassmorphism
+.bg-glassmorphism-p-25 {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.bg-glassmorphism-p-05 {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.bg-glassmorphism-p-1 {
+  background: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+// Hover
+
+.hover-slow{
+  transition: 1s ease;
+}
+
+.hover-medium{
+  transition: .5 ease;
+}
+
+.hover-fast{
+  transition: .25s ease;
+}
+
+.to-black-hover:hover{
+  background-color: black;
+}
+
+.to-white-hover:hover{
+  background-color: white
+}
+
+.twolines {
+    letter-spacing: 0;
+}
+
+.twolines:hover,
+.twolines:active {
+  letter-spacing: 5px;
+}
+
+.twolines:after,
+.twolines:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.twolines:hover:after,
+.twolines:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.twolines:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+
+
+// Customize Yours Below

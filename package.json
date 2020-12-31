@@ -1,0 +1,31 @@
+{
+  "name": "up-downs-buttons",
+  "version": "1.0.0",
+  "description": "Get Custom and Easy To Use Buttons. Open-Sourced. Easy to use. ",
+  "main": "/scss/buttons.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url scss/buttons.scss css/buttons.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talmax1124/Ups-Downs-Buttons.git"
+  },
+  "keywords": [
+    "Buttons"
+  ],
+  "author": "Carlos Diaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talmax1124/Ups-Downs-Buttons/issues"
+  },
+  "homepage": "https://github.com/talmax1124/Ups-Downs-Buttons#readme",
+  "dependencies": {
+    "user": "0.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
