@@ -1,6 +1,6 @@
 {
   "name": "up-downs-buttons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get Custom and Easy To Use Buttons. Open-Sourced. Easy to use. ",
   "main": "/scss/buttons.scss",
   "scripts": {
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/talmax1124/Ups-Downs-Buttons/issues"
   },
-  "homepage": "https://github.com/talmax1124/Ups-Downs-Buttons#readme",
+  "homepage": "https://ups-downs-buttons.netlify.app/",
   "dependencies": {
     "user": "0.0.0"
   },
