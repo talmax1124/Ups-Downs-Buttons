@@ -1,6 +1,6 @@
 {
   "name": "up-downs-buttons",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Get Custom and Easy To Use Buttons. Open-Sourced. Easy to use. ",
   "main": "/scss/buttons.scss",
   "scripts": {

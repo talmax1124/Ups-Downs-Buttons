@@ -1,8 +1,5 @@
 # Ups-Downs-Buttons
 
-
-<!-- How To Use It -- >
-
 Go to NPM and search by ups-downs-buttons. Instructions found there
 
 Open Sourced Buttons
