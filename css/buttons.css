@@ -1,136 +1,102 @@
 .large {
-    padding: 20px;
-  }
-  
-  .small {
-    padding: 10px;
-  }
-  
-  .medium {
-    padding: 15px;
-  }
-  
-  .x-small {
-    padding: 5px;
-  }
-  
-  .small-rounded {
-    border-radius: 5px;
-  }
-  
-  .medium-rounded {
-    border-radius: 10px;
-  }
-  
-  .large-rounded {
-    border-radius: 15px;
-  }
-  
-  .xlarge-rounded {
-    border-radius: 20px;
-  }
-  
-  .font-arial {
-    font-family: arial;
-  }
-  
-  .font-sans-serif {
-    font-family: sans-serif;
-  }
-  
-  .bg-dark {
-    background-color: black;
-    color: white;
-  }
-  
-  .bg-white {
-    background-color: white;
-    color: black;
-  }
-  
-  .bg-gray {
-    background-color: gray;
-    color: black;
-  }
-  
-  .bg-glassmorphism-p-25 {
-    background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-  }
-  
-  .bg-glassmorphism-p-05 {
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-  }
-  
-  .bg-glassmorphism-p-1 {
-    background: white;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-  }
-  
-  .hover-slow {
-    -webkit-transition: 1s ease;
-    transition: 1s ease;
-  }
-  
-  .hover-medium {
-    -webkit-transition: .5 ease;
-    transition: .5 ease;
-  }
-  
-  .hover-fast {
-    -webkit-transition: .25s ease;
-    transition: .25s ease;
-  }
-  
-  .to-black-hover:hover {
-    background-color: black;
-  }
-  
-  .to-white-hover:hover {
-    background-color: white;
-  }
-  
-  .twolines {
-    letter-spacing: 0;
-  }
-  
-  .twolines:hover,
-  .twolines:active {
-    letter-spacing: 5px;
-  }
-  
-  .twolines:after,
-  .twolines:before {
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-    border: 1px solid rgba(255, 255, 255, 0);
-    bottom: 0px;
-    content: " ";
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    -webkit-transition: all 280ms ease-in-out;
-    transition: all 280ms ease-in-out;
-    width: 0;
-  }
-  
-  .twolines:hover:after,
-  .twolines:hover:before {
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-    border-color: #fff;
-    -webkit-transition: width 350ms ease-in-out;
-    transition: width 350ms ease-in-out;
-    width: 70%;
-  }
-  
-  .twolines:hover:before {
-    bottom: auto;
-    top: 0;
-    width: 70%;
-  }
-  /*# sourceMappingURL=buttons.css.map */
+  padding: 20px; }
+
+.small {
+  padding: 10px; }
+
+.medium {
+  padding: 15px; }
+
+.x-small {
+  padding: 5px; }
+
+.small-rounded {
+  border-radius: 5px; }
+
+.medium-rounded {
+  border-radius: 10px; }
+
+.large-rounded {
+  border-radius: 15px; }
+
+.xlarge-rounded {
+  border-radius: 20px; }
+
+.font-arial {
+  font-family: arial; }
+
+.font-sans-serif {
+  font-family: sans-serif; }
+
+.bg-dark {
+  background-color: black;
+  color: white; }
+
+.bg-white {
+  background-color: white;
+  color: black; }
+
+.bg-gray {
+  background-color: gray;
+  color: black; }
+
+.bg-glassmorphism-p-25 {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); }
+
+.bg-glassmorphism-p-05 {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); }
+
+.bg-glassmorphism-p-1 {
+  background: white;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); }
+
+.hover-slow {
+  transition: 1s ease; }
+
+.hover-medium {
+  transition: .5 ease; }
+
+.hover-fast {
+  transition: .25s ease; }
+
+.to-black-hover:hover {
+  background-color: black; }
+
+.to-white-hover:hover {
+  background-color: white; }
+
+.twolines {
+  letter-spacing: 0; }
+
+.twolines:hover,
+.twolines:active {
+  letter-spacing: 5px; }
+
+.twolines:after,
+.twolines:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0; }
+
+.twolines:hover:after,
+.twolines:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%; }
+
+.twolines:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%; }
