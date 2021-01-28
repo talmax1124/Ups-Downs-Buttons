@@ -17,5 +17,7 @@ How to contribute:
 </ol>
 ------------------------
 Netlify Status:
+
 <br>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bc8d5304-c2cb-462a-a4cb-c97fc5ecfe68/deploy-status)](https://app.netlify.com/sites/ups-downs-buttons/deploys)
